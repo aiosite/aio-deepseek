@@ -210,7 +210,6 @@
       "saveAsSnippet": "Save as Snippet",
       "manageSnippets": "Manage CSS Snippets",
       "restore": "Restore",
-      "delete": "Delete",
       "enterSnippetName": "Enter snippet name:",
       "snippetSaved": "Snippet saved!",
       "snippetDeleted": "Snippet deleted",
@@ -435,9 +434,6 @@
       "noProjectSelected": "No project selected",
       "webImportTitle": "Fetch Web Page",
       "webPlaceholder": "https://example.com/article",
-      "close": "Close",
-      "fetch": "Fetch",
-      "fetching": "Fetching...",
       "noSpeechRecognition": "Browser does not support Speech Recognition.",
       "voiceError": "Voice Error: {{msg}}",
       "noInputField": "Could not find input field.",
@@ -936,7 +932,7 @@
       "cmdHint": "/mycommand (lowercase, no spaces)",
       "add": "Add",
       "categorySnippet": "snippet",
-      "autocompleteHint": "Tab \u21b9 complete \u00b7 \u21b5 execute",
+      "autocompleteHint": "Tab ↹ complete · ↵ execute",
       "cmdSearchDesc": "Search the web and inject results into chat",
       "cmdSearchUsage": "/search <query>",
       "cmdNewDesc": "Start a new conversation",
@@ -1343,6 +1339,23 @@
               "description": "Better handling of stalled streams and automatic closing of tags."
             }
           }
+        },
+        "v0_1_0": {
+          "title": "Aio-DeepSeek is here — Persian-first",
+          "features": {
+            "feat_0": {
+              "title": "Persian-first Interface",
+              "description": "The extension now ships with Persian (فارسی) as the default language, with full right-to-left support. You can switch languages anytime from Settings."
+            },
+            "feat_1": {
+              "title": "New AIO Tool Tags",
+              "description": "All tool tags are now prefixed with AIO: (for example <AIO:create_file>). Chats created with the original Better DeepSeek (BDS: tags) keep working."
+            },
+            "feat_2": {
+              "title": "Independent & Offline",
+              "description": "Aio-DeepSeek no longer contacts the original author's servers. Settings, announcements and translations are fully bundled — your data stays local."
+            }
+          }
         }
       }
     },
@@ -1477,8 +1490,8 @@
       "columnOptions": "Column options",
       "hideRow": "Hide row",
       "manageColumnsRows": "Manage columns & rows",
-      "sortAsc": "\u25B2 Sort A \u2192 Z",
-      "sortDesc": "\u25BC Sort Z \u2192 A",
+      "sortAsc": "▲ Sort A → Z",
+      "sortDesc": "▼ Sort Z → A",
       "hideColumn": "Hide column",
       "showColumn": "Show column",
       "columns": "Columns",
@@ -1490,7 +1503,7 @@
       "searchEngineWarning": "Shared conversations may be discovered and indexed by search engines."
     },
     "tips": {
-      "title": "\uD83D\uDCA1 Tip",
+      "title": "💡 Tip",
       "disableInSettings": "You can disable this from Settings.",
       "0": "To export a chat, click the ... button next to the session in the chat history.",
       "1": "You can disable this tip box from Settings.",

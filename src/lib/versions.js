@@ -1,5 +1,27 @@
 export const VERSION_HISTORY = [
   {
+    version: "0.1.0",
+    date: "2026-10-31",
+    title: "Aio-DeepSeek is here — Persian-first",
+    features: [
+      {
+        type: "feature",
+        title: "Persian-first Interface",
+        description: "The extension now ships with Persian (فارسی) as the default language, with full right-to-left support. You can switch languages anytime from Settings."
+      },
+      {
+        type: "feature",
+        title: "New AIO Tool Tags",
+        description: "All tool tags are now prefixed with AIO: (for example <AIO:create_file>). Chats created with the original Better DeepSeek (BDS: tags) keep working."
+      },
+      {
+        type: "developer",
+        title: "Independent & Offline",
+        description: "Aio-DeepSeek no longer contacts the original author's servers. Settings, announcements and translations are fully bundled — your data stays local."
+      }
+    ]
+  },
+  {
     version: "0.1.15",
     date: "2026-10-09",
     title: "AIO Live, Context Menu & Music",
