@@ -912,7 +912,7 @@ export const CHARS_PER_TOKEN = 3.5;
 
 // ── Brand / Repository (بعد از ساخت ریپوی خودتان این آدرس را به‌روزرسانی کنید) ──
 export const BRAND_NAME = "Aio-DeepSeek";
-export const BRAND_GITHUB_URL = "https://github.com/aio-deepseek/aio-deepseek";
+export const BRAND_GITHUB_URL = "https://github.com/aiosite/aio-deepseek";
 
 // ── Pricing fetch URLs ──
 // Aio-DeepSeek: وابسته به ریپوی سازنده اصلی نیست؛ قیمت‌ها از مقادیر داخلی
